@@ -1,4 +1,3 @@
-import './App.css';
 import Testimonial from './components/Testimonial';
 import reviews from "./data"
 function App() {
@@ -9,7 +8,7 @@ function App() {
             Our Testimonial
           </h1>
       </div>
-      <div className='bg-violet-400 h-[4px] w-[1/5]'></div>
+      <div className='bg-violet-400 h-1 w-1/5 mt-1'></div>
       <Testimonial reviews={reviews}/>
     </div>
   );
